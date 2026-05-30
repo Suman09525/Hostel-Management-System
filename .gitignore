@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+.Python
+
+# Flask / app artifacts
+.env
+.env.*
+.webassets-cache
+
+# Database
+*.db
+
+# Runtime uploads/log caches
+static/uploads/*
+!static/uploads/.gitkeep
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
